@@ -3,5 +3,7 @@ Resources:
   SampleS3Bucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      BucketName: "sample-bucket-for-git-sync" # バケット名はグローバルで一意である必要があります
+      BucketName: "sample-bucket-for-git-sync"
       AccessControl: Private
+      VersioningConfiguration:
+        Status: Enabled
