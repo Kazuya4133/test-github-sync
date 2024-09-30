@@ -1,0 +1,3 @@
+template-file-path: s3-creation.yml
+parameters: {}
+tags: {}
